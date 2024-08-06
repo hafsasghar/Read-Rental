@@ -1,0 +1,132 @@
+.types{
+    background-color: #262526;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+    padding: 100px 8%;
+}
+
+.types h1{
+    font-size: 35px;
+    color: #556D30;
+    
+   
+}
+.items {
+    display: flex;
+    gap: 60px;
+    
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    
+}
+.item h3{
+    font-size: 20px;
+    color: #556D30;
+    
+}
+
+.type-icon{
+    width : 130px;
+    height: 130px;
+    background-color: #CFAC33;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #262526;
+    font-size: 40px;
+}
+
+
+.deals , .best {
+    padding: 100px 8%;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    gap: 9%;
+
+}
+.deals .image{
+    width: 650px;
+    height: 400px;
+    display: flex;
+    justify-content: flex-end;
+    object-fit: cover;
+    
+}
+
+.deals .text, .best .text {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    gap: 30px;
+}
+
+.deals .text h3 , .best .text h3 {
+    font-size: 43px;
+    font-weight: 500;
+    color: #CFAC33;
+}
+.sellers .heading h3 {
+    font-size: 43px;
+    font-weight: 500;
+    color: #CFAC33;
+    padding-left: 40%;
+
+}
+
+
+
+
+.deals .text p , .best .text p{
+    font-size: 17px;
+    color: #556D30;
+}
+
+.deals .btn , .best .btn{
+    text-align: center;
+    width: 25%;
+    background-color: #1A4C3D;
+    color: #F6EEE0;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+   
+    text-decoration: none;
+}
+
+
+.best{
+   background-color: #262526;
+}
+
+.sellers{
+    background-color: #000000;
+    padding: 100px 8%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+.sellers .heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sellers .heading a{
+    text-decoration: none;
+    color: #1A4C3D;
+}
